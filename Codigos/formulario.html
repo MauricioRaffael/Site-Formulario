@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <title>Esportes Olímpicos</title>
+</head>
+<body>
+
+    <div>
+        <h1 id="titulo">Cadastro no Site</h1>
+        <p id="subtitulo">Complete suas informações</p><br>
+    </div>
+
+    <form>
+        <fieldset>
+            <div class="campo">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" required><br>
+            </div>
+            <div class="campo">
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" required><br>
+            </div>
+            <div class="campo">
+                <label for="nascimento"Data de nascimento:></label><br>
+                <input type="date" id="nascimento" required><br>
+            </div>
+            <div class="campo">
+                <label for="msg">Sua experiência com esportes:</label><br>
+                <textarea name="experiência no esporte" id="msg" cols="30" rows="10" required></textarea>
+            </div>
+        </fieldset>
+    
+        <button class="botao" type="submit">Concluído</button>
+
+    </form> 
+    
+    <a href="menu.html">Para voltar ao menu clique Aqui</a>
+
+</body>
+</html>
